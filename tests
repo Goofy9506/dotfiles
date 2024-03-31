@@ -1,2 +1,30 @@
 631ms -noprofile
 2783ms profile
+
+
+ C:\Users\Administrator\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
+
+
+      Count  Line       Time Taken Statement
+      -----  ----       ---------- ---------
+          0     1    00:00.0000000 #Aliases
+          1     2    00:00.0036821 Set-Alias tt tree
+          1     3    00:00.0008164 Set-Alias ll ls
+          1     4    00:00.0007155 Set-Alias g git
+          1     5    00:00.0007821 Set-Alias vim nvim
+          0     6    00:00.0000000
+          0     7    00:00.0000000 #Prompt
+          1     8    00:02.2186283 oh-my-posh init pwsh --config
+                                   'C:\Users\Administrator\Documents\PowerShell\myprofile.omp.json' |
+                                   Invoke-Expression
+          0     9    00:00.0000000
+          1    10    00:00.0016900 Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
+          0    11    00:00.0000000
+          1    12    00:00.0015887 Set-PSReadLineOption -HistorySearchCursorMovesToEnd
+          1    13    00:00.0011197 Set-PSReadlineKeyHandler -Key UpArrow -Function
+                                   HistorySearchBackward
+          1    14    00:00.0010156 Set-PSReadlineKeyHandler -Key DownArrow -Function
+                                   HistorySearchForward
+          0    15    00:00.0000000
+          1    16    00:00.0026654 Set-PSReadLineOption -Colors @{ InlinePrediction = '#875f5f'}
+          0    17    00:00.0000000
